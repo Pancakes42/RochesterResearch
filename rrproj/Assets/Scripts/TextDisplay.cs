@@ -19,8 +19,7 @@ public class TextDisplay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       transform.LookAt(transform.position + playerCamera.transform.rotation * Vector3.forward,
-            playerCamera.transform.rotation * Vector3.up);
+       transform.LookAt(transform.position + playerCamera.transform.rotation * Vector3.forward, playerCamera.transform.rotation * Vector3.up);
 
     }
 }
