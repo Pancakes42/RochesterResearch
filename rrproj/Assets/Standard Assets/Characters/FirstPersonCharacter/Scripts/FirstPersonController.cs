@@ -42,6 +42,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
+        private bool crouching;
 
         // Use this for initialization
         private void Start()
@@ -56,6 +57,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
+            crouching = false;
         }
 
 
@@ -81,7 +83,37 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 m_MoveDir.y = 0f;
             }
 
+
+
             m_PreviouslyGrounded = m_CharacterController.isGrounded;
+
+
+            if (Input.GetKeyDown(KeyCode.C))
+            {
+                Debug.Log(gameObject.transform.position);
+                if (crouching)
+                {
+                    crouching = false;
+                    m_CharacterController.height = 1.8f;
+                    gameObject.transform.position = new Vector3(transform.position.x, transform.position.y + 1f, transform.position.z);
+                }
+                else
+                {
+                    crouching = true;
+                    m_CharacterController.height = 0.7f;
+                    
+                    gameObject.transform.position = new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z);
+                    
+                }
+                Debug.Log(gameObject.transform.position);
+            }
+
+            
+            
+
+
+
+
         }
 
 
