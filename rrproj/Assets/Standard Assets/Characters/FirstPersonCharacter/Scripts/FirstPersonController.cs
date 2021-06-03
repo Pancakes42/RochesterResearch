@@ -44,6 +44,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private AudioSource m_AudioSource;
         private bool crouching;
 
+        
+        Ray ray;
+        RaycastHit hit;
+
+
         // Use this for initialization
         private void Start()
         {
@@ -107,6 +112,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 }
                 Debug.Log(gameObject.transform.position);
             }
+
+            
 
             
             
@@ -288,5 +295,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
             body.AddForceAtPosition(m_CharacterController.velocity*0.1f, hit.point, ForceMode.Impulse);
         }
+
+        
+
     }
 }

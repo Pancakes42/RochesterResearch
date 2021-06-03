@@ -46,4 +46,10 @@ public class TextDisplay : MonoBehaviour
         }
         
     }
+
+
+    public void SetText(string Text)
+    {
+        textCanvas.GetComponent<TextMesh>().text = Text;
+    }
 }

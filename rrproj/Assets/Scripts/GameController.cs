@@ -6,7 +6,8 @@ public class GameController : MonoBehaviour
 {
     public GameObject PlayerChar;
 
-
+    Ray ray;
+    RaycastHit hit;
 
     // Start is called before the first frame update
     void Start()
