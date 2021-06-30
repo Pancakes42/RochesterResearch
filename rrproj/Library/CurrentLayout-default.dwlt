@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2536
     height: 1342.6667
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 109
+  controlID: 19
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 110
+  controlID: 20
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 111
+  controlID: 21
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -396,10 +396,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 220}
-      m_SelectedIDs: 50f3ffff
-      m_LastClickedID: -3248
-      m_ExpandedIDs: 3cf5ffff30fbffff52fbffffc63e0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: a4eeffffeeeeffff52fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -415,7 +415,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 8}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -459,9 +459,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 72.394226, y: 21.797249, z: -292.4152}
+    m_Target: {x: -65.03557, y: 6.65724, z: 22.860355}
     speed: 2
-    m_Value: {x: 72.394226, y: 21.797249, z: -292.4152}
+    m_Value: {x: -65.03557, y: 6.65724, z: 22.860355}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -508,13 +508,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.0021800706, y: 0.9301273, z: 0.013431967, w: 0.3690939}
+    m_Target: {x: 0.013717408, y: -0.9839988, z: 0.11276988, w: 0.1433632}
     speed: 2
-    m_Value: {x: -0.0021985103, y: 0.928852, z: 0.013418272, w: 0.37020147}
+    m_Value: {x: 0.01404364, y: -0.9827235, z: 0.11263185, w: 0.14618945}
   m_Size:
-    m_Target: 32.13899
+    m_Target: 25.757067
     speed: 2
-    m_Value: 32.13899
+    m_Value: 25.757065
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -602,13 +602,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\willw\Documents\GitHub\RochesterResearch\rrproj
   m_LockTracker:
@@ -672,7 +672,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300003e630000966300006863000076630000ae3f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
