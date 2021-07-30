@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class TestTimeTravel : MonoBehaviour
 {
@@ -25,8 +27,6 @@ public class TestTimeTravel : MonoBehaviour
 
     private void OnMouseDown()
     {
-        RuinedArcade.SetActive(false);
-        AwsomeArcade.SetActive(true);
-        GameController.PlayerChar.transform.position = TeleDest.transform.position;
+        SceneManager.LoadScene("Level1", LoadSceneMode.Single);
     }
 }

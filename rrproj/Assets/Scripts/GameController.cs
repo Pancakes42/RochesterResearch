@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
     public GameObject PlayerChar;
+    SceneManager sceneManager;
 
     Ray ray;
     RaycastHit hit;
@@ -12,6 +14,7 @@ public class GameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        sceneManager = new SceneManager();
         
     }
 
@@ -20,4 +23,10 @@ public class GameController : MonoBehaviour
     {
         
     }
+
+    public SceneManager GetSceneManager()
+    {
+        return sceneManager;
+    }
+
 }
