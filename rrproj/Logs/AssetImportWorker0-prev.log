@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.10f1 (297d780c91bc) revision 2719096'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1110; Version 2009; 64bit' Language: 'en' Physical Memory: 16333 MB
+OS: 'Windows 10 Home; OS build 19042.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16333 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/willw/Documents/GitHub/RochesterResearch/rrproj
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54750
+57340
 Successfully changed project path to: C:/Users/willw/Documents/GitHub/RochesterResearch/rrproj
 C:/Users/willw/Documents/GitHub/RochesterResearch/rrproj
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 41.00 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 40.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.10f1 (297d780c91bc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -35,49 +35,129 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.004077 seconds.
+Registered in 0.004287 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 38.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 38.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.342 seconds
+- Completed reload, in  1.364 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005113 seconds.
+Registered in 0.005440 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.135 seconds
+- Completed reload, in  1.124 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1522 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.5 MB.
-System memory in use after: 78.1 MB.
+Unloading 1525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.7 MB.
+System memory in use after: 78.4 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1961.
-Total: 2.763200 ms (FindLiveObjects: 0.211300 ms CreateObjectMapping: 0.039600 ms MarkObjects: 2.120500 ms  DeleteObjects: 0.390500 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1964.
+Total: 2.495800 ms (FindLiveObjects: 0.181700 ms CreateObjectMapping: 0.038300 ms MarkObjects: 1.903200 ms  DeleteObjects: 0.371000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Models/Lvl1.obj
-  artifactKey: Guid(6c4f15730b5098046b4b8ba831ed086c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Lvl1.obj using Guid(6c4f15730b5098046b4b8ba831ed086c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2ebf12182ad8958828b3880fd9c2e0') in 2.723110 seconds
-  Import took 2.731319 seconds .
+  path: Assets/Models/lvl3
+  artifactKey: Guid(90cbeb9f3fb89f34ea90872e45d82f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/lvl3 using Guid(90cbeb9f3fb89f34ea90872e45d82f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c01629160a883af0586432e742c6dd') in 0.009046 seconds
+  Import took 0.012147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.423417 seconds.
+  path: Assets/Models/lvl3/Lvl3.obj
+  artifactKey: Guid(85f0b784bd919394598c846db1d4167e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/lvl3/Lvl3.obj using Guid(85f0b784bd919394598c846db1d4167e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60497d14b7b5e9b3cf493125896adda9') in 0.526041 seconds
+  Import took 0.529993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.960056 seconds.
+  path: Assets/Models/lvl3/DowntownRochester_Buell_SWashignton.prefab
+  artifactKey: Guid(b45097b3658df1f48aa5285c34789916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/lvl3/DowntownRochester_Buell_SWashignton.prefab using Guid(b45097b3658df1f48aa5285c34789916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8e4c745eb3ac4d7a2b23a844d68fd5') in 0.017625 seconds
+  Import took 0.020519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.411032 seconds.
+  path: Assets/Models/lvl3/DowntownRochester_ColonelRochesterHouse.prefab
+  artifactKey: Guid(05a5c9828400d7c4389a9eefc9c43dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/lvl3/DowntownRochester_ColonelRochesterHouse.prefab using Guid(05a5c9828400d7c4389a9eefc9c43dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3200f5d8e7c46c814e9db6ba9181668') in 0.014178 seconds
+  Import took 0.017127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.199141 seconds.
+  path: Assets/Models/lvl3/Pitkins.prefab
+  artifactKey: Guid(dbc2f59ea98c5634e8ee3d42ccec4e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/lvl3/Pitkins.prefab using Guid(dbc2f59ea98c5634e8ee3d42ccec4e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3c4cf864bbac4308740f7b62d8f2ea') in 0.021601 seconds
+  Import took 0.025206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002302 seconds.
+  path: Assets/Models/lvl3/Pitkins.prefab
+  artifactKey: Guid(dbc2f59ea98c5634e8ee3d42ccec4e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/lvl3/Pitkins.prefab using Guid(dbc2f59ea98c5634e8ee3d42ccec4e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3c4cf864bbac4308740f7b62d8f2ea') in 0.018640 seconds
+  Import took 0.022222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.454992 seconds.
+  path: Assets/Models/lvl3/DowntownRochester_StrongHouse.prefab
+  artifactKey: Guid(d8a92e8b8e661124a9dbee6af6407d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/lvl3/DowntownRochester_StrongHouse.prefab using Guid(d8a92e8b8e661124a9dbee6af6407d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be383b63ee6ed7a2157e7fbfae7b716a') in 0.013447 seconds
+  Import took 0.016331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.890295 seconds.
+  path: Assets/Models/lvl3/Pitkins.prefab
+  artifactKey: Guid(dbc2f59ea98c5634e8ee3d42ccec4e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/lvl3/Pitkins.prefab using Guid(dbc2f59ea98c5634e8ee3d42ccec4e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb561a14b4694ccc2a4c39d6e12a2019') in 0.027409 seconds
+  Import took 0.030992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000743 seconds.
+  path: Assets/Models/lvl3/Pitkins.prefab
+  artifactKey: Guid(dbc2f59ea98c5634e8ee3d42ccec4e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/lvl3/Pitkins.prefab using Guid(dbc2f59ea98c5634e8ee3d42ccec4e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb561a14b4694ccc2a4c39d6e12a2019') in 0.015492 seconds
+  Import took 0.018876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.697992 seconds.
+  path: Assets/Models/lvl3/TomHart.prefab
+  artifactKey: Guid(9921e0ede2e5b8143bce27b7901bd8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/lvl3/TomHart.prefab using Guid(9921e0ede2e5b8143bce27b7901bd8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec67af7b8b1ac6b9d193db47842e0c76') in 0.014508 seconds
+  Import took 0.017558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.307862 seconds.
+  path: Assets/Models/lvl3/JohnathanChildHouse_DowntownRochester.prefab
+  artifactKey: Guid(269e9dbce438017418624990cbe11fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/lvl3/JohnathanChildHouse_DowntownRochester.prefab using Guid(269e9dbce438017418624990cbe11fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485c7c13a7edda96c01bd7d122e64612') in 0.014030 seconds
+  Import took 0.016946 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
